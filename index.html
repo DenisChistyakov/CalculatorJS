@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-4.0/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="form-group" style="float: left;">
+            <br />
+            <div class="col-7 form-inline">
+                <input type="text" id="result" placeholder="0" />
+                <div style="margin-left: 50px;">
+                    <button id="clean" class="btn btn-outline-danger btn-action">Clean</button>
+                    <button id="calculate" class="btn btn-outline-primary btn-action">Calculate</button>
+                    <span class="label">Result: <span id="result-label" class="label">0</span></span>
+                </div>
+            </div>
+
+            <div class="clearfix"><br /></div>
+
+
+
+            <div id="calc-numbers-container" class="col-3 float-left">
+                <button class="btn btn-outline-warning calc-execute">1</button>
+                <button class="btn btn-outline-warning calc-execute">2</button>
+                <button class="btn btn-outline-warning calc-execute">3</button>
+                <button class="btn btn-outline-warning calc-execute">4</button>
+                <button class="btn btn-outline-warning calc-execute">5</button>
+                <button class="btn btn-outline-warning calc-execute">6</button>
+                <button class="btn btn-outline-warning calc-execute">7</button>
+                <button class="btn btn-outline-warning calc-execute">8</button>
+                <button class="btn btn-outline-warning calc-execute">9</button>
+                <button class="btn btn-outline-warning calc-execute">0</button>
+            </div>
+
+            <div class="col-3 float-left">
+                <button class="btn btn-outline-success calc-execute plus">+</button>
+                <button class="btn btn-outline-success calc-execute minus">-</button>
+                <button class="btn btn-outline-success calc-execute mult">*</button>
+                <button class="btn btn-outline-success calc-execute divide">/</button>
+                <button class="btn btn-outline-success calc-execute left-bracket">(</button>
+                <button class="btn btn-outline-success calc-execute right-bracket">)</button>
+                <button class="btn btn-outline-success calc-execute right-dot">.</button>
+                <button class="btn btn-outline-success" id="btn-group">Group</button>
+                <button class="btn btn-outline-success" id="btn-ungroup">Ungroup</button>
+            </div>
+
+
+
+            <div id="detailed_result" style="float: right; min-width: 500px;"></div>
+
+
+           </div>
+
+
+
+
+        </div>
+
+
+    <div>
+</div>
+
+</body>
+
+</html>
